@@ -5,4 +5,4 @@ def temp(degree_celsius: float):
     return farenHeit
 
 
-print("Temp in f: ", temp(input('Enter temperature in degree celsius:')))
+print("Temp in f: ", temp(float(input('Enter temperature in degree celsius:'))))
